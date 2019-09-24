@@ -1,5 +1,6 @@
 from __future__ import print_function
 import  math
+import operator
 
 def unique_vals(rows, col):
     """Find the unique values for a column in a dataset."""
@@ -171,7 +172,8 @@ class Leaf:
 
     def __init__(self, rows, id, depth):
         self.predictions = class_counts(rows)
-        self.predictedLabel= max(self.predictions, key=lambda k:self.predictions[k]) 
+        self.predictedLabel = max(self.predictions.items(), key=operator.itemgetter(1))[0]
+        
         """print(self.predictedLabel)            #debug           """           
         self.id=id
         self.depth=depth

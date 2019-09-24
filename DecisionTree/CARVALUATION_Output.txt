@@ -1,0 +1,6511 @@
+Is lug_boot == low?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 576}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is doors == 2?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 384}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 32}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Is maint == 2?
+          --> True:
+          Node ID 5
+          Node Depth 37
+            Is doors == 4?
+            --> True:
+            Node ID 6
+            Node Depth 76
+              Node ID 154
+              Node Depth 7
+              Prediction Dictionary {'unacc': 2, 'acc': 2}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 76
+              Node ID 153
+              Node Depth 7
+              Prediction Dictionary {'unacc': 4}
+              Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 37
+            Node ID 75
+            Node Depth 6
+            Prediction Dictionary {'unacc': 12, 'acc': 12}
+            Predicted class label unacc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == high?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Node ID 36
+          Node Depth 5
+          Prediction Dictionary {'unacc': 32, 'acc': 32}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Is persons == med?
+          --> True:
+          Node ID 5
+          Node Depth 35
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 72
+              Node ID 146
+              Node Depth 7
+              Prediction Dictionary {'unacc': 8}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 72
+              Is maint == 3?
+              --> True:
+              Node ID 7
+              Node Depth 145
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 292
+                  Node ID 586
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4}
+                  Predicted class label unacc
+                --> False:
+                Node ID 8
+                Node Depth 292
+                  Node ID 585
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 2, 'acc': 2}
+                  Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 145
+                Node ID 291
+                Node Depth 8
+                Prediction Dictionary {'unacc': 8, 'acc': 8}
+                Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 35
+            Node ID 71
+            Node Depth 6
+            Prediction Dictionary {'unacc': 16, 'acc': 16}
+            Predicted class label unacc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 34
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 70
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 142
+                Node ID 286
+                Node Depth 8
+                Prediction Dictionary {'unacc': 3, 'acc': 1}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 142
+                Node ID 285
+                Node Depth 8
+                Prediction Dictionary {'unacc': 4}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 70
+              Node ID 141
+              Node Depth 7
+              Prediction Dictionary {'unacc': 18, 'acc': 6}
+              Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 34
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 69
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 140
+                Node ID 282
+                Node Depth 8
+                Prediction Dictionary {'unacc': 4, 'acc': 4}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 140
+                Node ID 281
+                Node Depth 8
+                Prediction Dictionary {'unacc': 8}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 69
+              Node ID 139
+              Node Depth 7
+              Prediction Dictionary {'unacc': 24, 'acc': 24}
+              Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 33
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 68
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 138
+                Node ID 278
+                Node Depth 8
+                Prediction Dictionary {'unacc': 6, 'acc': 2}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 138
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 277
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 556
+                    Node ID 1114
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 3, 'acc': 1}
+                    Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 556
+                    Node ID 1113
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1, 'acc': 3}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 277
+                  Node ID 555
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4, 'acc': 12}
+                  Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 68
+              Node ID 137
+              Node Depth 7
+              Prediction Dictionary {'unacc': 8, 'acc': 24}
+              Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 33
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 67
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 136
+                Node ID 274
+                Node Depth 8
+                Prediction Dictionary {'unacc': 8, 'acc': 8}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 136
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 273
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 548
+                    Node ID 1098
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 4, 'acc': 4}
+                    Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 548
+                    Is buying == low?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1097
+                      Node ID 2196
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'good': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1097
+                      Node ID 2195
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'good': 1}
+                      Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 273
+                  Is buying == low?
+                  --> True:
+                  Node ID 9
+                  Node Depth 547
+                    Node ID 1096
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 8, 'good': 8}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 547
+                    Node ID 1095
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 12, 'good': 4}
+                    Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 67
+              Is buying == low?
+              --> True:
+              Node ID 7
+              Node Depth 135
+                Node ID 272
+                Node Depth 8
+                Prediction Dictionary {'acc': 16, 'good': 16}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 135
+                Node ID 271
+                Node Depth 8
+                Prediction Dictionary {'acc': 24, 'good': 8}
+                Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 32
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 66
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 134
+                Node ID 270
+                Node Depth 8
+                Prediction Dictionary {'unacc': 1, 'acc': 3}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 134
+                Node ID 269
+                Node Depth 8
+                Prediction Dictionary {'unacc': 4}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 66
+              Node ID 133
+              Node Depth 7
+              Prediction Dictionary {'unacc': 6, 'acc': 18}
+              Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 32
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 65
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 132
+                Is buying == low?
+                --> True:
+                Node ID 8
+                Node Depth 266
+                  Node ID 534
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'good': 2}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 266
+                  Node ID 533
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 3, 'good': 1}
+                  Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 132
+                Node ID 265
+                Node Depth 8
+                Prediction Dictionary {'unacc': 8}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 65
+              Is buying == low?
+              --> True:
+              Node ID 7
+              Node Depth 131
+                Node ID 264
+                Node Depth 8
+                Prediction Dictionary {'acc': 12, 'good': 12}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 131
+                Node ID 263
+                Node Depth 8
+                Prediction Dictionary {'acc': 18, 'good': 6}
+                Predicted class label acc
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 31
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 64
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 130
+                Node ID 262
+                Node Depth 8
+                Prediction Dictionary {'unacc': 2, 'acc': 6}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 130
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 261
+                  Is doors == more?
+                  --> True:
+                  Node ID 9
+                  Node Depth 524
+                    Node ID 1050
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1, 'acc': 2, 'vgood': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 524
+                    Node ID 1049
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1, 'acc': 3}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 261
+                  Node ID 523
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4, 'acc': 8, 'vgood': 4}
+                  Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 64
+              Node ID 129
+              Node Depth 7
+              Prediction Dictionary {'unacc': 8, 'acc': 16, 'vgood': 8}
+              Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 31
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 63
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 128
+                Is buying == low?
+                --> True:
+                Node ID 8
+                Node Depth 258
+                  Node ID 518
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 4, 'good': 4}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 258
+                  Node ID 517
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 6, 'good': 2}
+                  Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 128
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 257
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 516
+                    Is buying == low?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1034
+                      Node ID 2070
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'good': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1034
+                      Node ID 2069
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'good': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 516
+                    Node ID 1033
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 4, 'vgood': 4}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 257
+                  Node ID 515
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 16, 'vgood': 16}
+                  Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 63
+              Node ID 127
+              Node Depth 7
+              Prediction Dictionary {'acc': 32, 'vgood': 32}
+              Predicted class label acc
+********** Leaf nodes ****************
+id = 14 depth =3
+id = 28 depth =4
+id = 27 depth =4
+id = 54 depth =5
+id = 53 depth =5
+id = 25 depth =4
+id = 24 depth =4
+id = 23 depth =4
+id = 1 depth =1
+id = 14 depth =3
+id = 3 depth =13
+id = 12 depth =3
+id = 11 depth =3
+id = 1 depth =1
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 30 depth =4
+id = 29 depth =4
+id = 13 depth =3
+id = 12 depth =3
+id = 5 depth =50
+id = 5 depth =49
+id = 5 depth =48
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 34 depth =5
+id = 5 depth =33
+id = 32 depth =5
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 5 depth =62
+id = 61 depth =5
+id = 5 depth =60
+id = 59 depth =5
+id = 5 depth =58
+id = 57 depth =5
+id = 5 depth =56
+id = 5 depth =55
+id = 54 depth =5
+id = 53 depth =5
+id = 25 depth =4
+id = 11 depth =3
+id = 4 depth =2
+id = 8 depth =3
+id = 5 depth =34
+id = 33 depth =5
+id = 5 depth =32
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 14 depth =3
+id = 58 depth =5
+id = 5 depth =57
+id = 56 depth =5
+id = 5 depth =55
+id = 26 depth =4
+id = 25 depth =4
+id = 11 depth =3
+id = 4 depth =2
+id = 18 depth =4
+id = 36 depth =5
+id = 5 depth =35
+id = 34 depth =5
+id = 5 depth =33
+id = 32 depth =5
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 6 depth =2
+id = 5 depth =54
+id = 5 depth =53
+id = 5 depth =52
+id = 51 depth =5
+id = 24 depth =4
+id = 48 depth =5
+id = 5 depth =47
+id = 4 depth =2
+id = 8 depth =3
+id = 34 depth =5
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 5 depth =37
+id = 36 depth =5
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 3 depth =8
+id = 3 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 5 depth =37
+id = 36 depth =5
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 5 depth =38
+id = 37 depth =5
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 5 depth =37
+id = 5 depth =36
+id = 5 depth =35
+id = 5 depth =34
+id = 5 depth =33
+id = 5 depth =32
+id = 5 depth =31
+id = 2 depth =1
+id = 4 depth =2
+id = 38 depth =5
+id = 154 depth =7
+id = 153 depth =7
+id = 75 depth =6
+id = 36 depth =5
+id = 146 depth =7
+id = 586 depth =9
+id = 585 depth =9
+id = 291 depth =8
+id = 71 depth =6
+id = 286 depth =8
+id = 285 depth =8
+id = 141 depth =7
+id = 282 depth =8
+id = 281 depth =8
+id = 139 depth =7
+id = 278 depth =8
+id = 1114 depth =10
+id = 1113 depth =10
+id = 555 depth =9
+id = 137 depth =7
+id = 274 depth =8
+id = 1098 depth =10
+id = 2196 depth =11
+id = 2195 depth =11
+id = 1096 depth =10
+id = 1095 depth =10
+id = 272 depth =8
+id = 271 depth =8
+id = 270 depth =8
+id = 269 depth =8
+id = 133 depth =7
+id = 534 depth =9
+id = 533 depth =9
+id = 265 depth =8
+id = 264 depth =8
+id = 263 depth =8
+id = 262 depth =8
+id = 1050 depth =10
+id = 1049 depth =10
+id = 523 depth =9
+id = 129 depth =7
+id = 518 depth =9
+id = 517 depth =9
+id = 2070 depth =11
+id = 2069 depth =11
+id = 1033 depth =10
+id = 515 depth =9
+id = 127 depth =7
+********** Non-leaf nodes ****************
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 3 depth =11
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 2 depth =5
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 2 depth =5
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =30
+id = 4 depth =29
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =30
+id = 4 depth =29
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 4 depth =25
+id = 3 depth =11
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 4 depth =25
+id = 3 depth =11
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =18
+id = 5 depth =37
+id = 6 depth =76
+id = 4 depth =17
+id = 5 depth =35
+id = 6 depth =72
+id = 7 depth =145
+id = 8 depth =292
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 6 depth =70
+id = 7 depth =142
+id = 6 depth =69
+id = 7 depth =140
+id = 5 depth =33
+id = 6 depth =68
+id = 7 depth =138
+id = 8 depth =277
+id = 9 depth =556
+id = 6 depth =67
+id = 7 depth =136
+id = 8 depth =273
+id = 9 depth =548
+id = 10 depth =1097
+id = 9 depth =547
+id = 7 depth =135
+id = 4 depth =15
+id = 5 depth =32
+id = 6 depth =66
+id = 7 depth =134
+id = 6 depth =65
+id = 7 depth =132
+id = 8 depth =266
+id = 7 depth =131
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =130
+id = 8 depth =261
+id = 9 depth =524
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =258
+id = 8 depth =257
+id = 9 depth =516
+id = 10 depth =1034
+*************Tree before pruning*******
+Is doors == 2?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 461}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is lug_boot == low?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 301}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 26}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Is doors == 4?
+          --> True:
+          Node ID 5
+          Node Depth 37
+            Is maint == 5more?
+            --> True:
+            Node ID 6
+            Node Depth 76
+              Node ID 154
+              Node Depth 7
+              Prediction Dictionary {'unacc': 1, 'acc': 1}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 76
+              Is maint == 3?
+              --> True:
+              Node ID 7
+              Node Depth 153
+                Node ID 308
+                Node Depth 8
+                Prediction Dictionary {'acc': 1, 'unacc': 1}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 153
+                Node ID 307
+                Node Depth 8
+                Prediction Dictionary {'unacc': 2, 'acc': 4}
+                Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 37
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 75
+              Node ID 152
+              Node Depth 7
+              Prediction Dictionary {'unacc': 4}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 75
+              Is maint == 4?
+              --> True:
+              Node ID 7
+              Node Depth 151
+                Node ID 304
+                Node Depth 8
+                Prediction Dictionary {'unacc': 1}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 151
+                Node ID 303
+                Node Depth 8
+                Prediction Dictionary {'acc': 3, 'unacc': 3}
+                Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is persons == med?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Is lug_boot == high?
+          --> True:
+          Node ID 5
+          Node Depth 36
+            Is doors == more?
+            --> True:
+            Node ID 6
+            Node Depth 74
+              Is maint == 5more?
+              --> True:
+              Node ID 7
+              Node Depth 150
+                Node ID 302
+                Node Depth 8
+                Prediction Dictionary {'unacc': 1, 'acc': 1}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 150
+                Node ID 301
+                Node Depth 8
+                Prediction Dictionary {'acc': 6, 'unacc': 3}
+                Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 74
+              Is maint == 3?
+              --> True:
+              Node ID 7
+              Node Depth 149
+                Node ID 300
+                Node Depth 8
+                Prediction Dictionary {'acc': 2, 'unacc': 2}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 149
+                Is maint == 4?
+                --> True:
+                Node ID 8
+                Node Depth 299
+                  Node ID 600
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 1, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 299
+                  Node ID 599
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 4}
+                  Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 36
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 73
+              Node ID 148
+              Node Depth 7
+              Prediction Dictionary {'unacc': 4}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 73
+              Is maint == 4?
+              --> True:
+              Node ID 7
+              Node Depth 147
+                Node ID 296
+                Node Depth 8
+                Prediction Dictionary {'unacc': 4, 'acc': 4}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 147
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 295
+                  Is maint == 3?
+                  --> True:
+                  Node ID 9
+                  Node Depth 592
+                    Node ID 1186
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 3}
+                    Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 592
+                    Node ID 1185
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 2}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 295
+                  Is maint == 3?
+                  --> True:
+                  Node ID 9
+                  Node Depth 591
+                    Node ID 1184
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 2}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 591
+                    Node ID 1183
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 2}
+                    Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Is doors == more?
+          --> True:
+          Node ID 5
+          Node Depth 35
+            Is lug_boot == high?
+            --> True:
+            Node ID 6
+            Node Depth 72
+              Is maint == 4?
+              --> True:
+              Node ID 7
+              Node Depth 146
+                Node ID 294
+                Node Depth 8
+                Prediction Dictionary {'unacc': 2, 'acc': 1}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 146
+                Is maint == 5more?
+                --> True:
+                Node ID 8
+                Node Depth 293
+                  Node ID 588
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 293
+                  Node ID 587
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4, 'acc': 4}
+                  Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 72
+              Is maint == 3?
+              --> True:
+              Node ID 7
+              Node Depth 145
+                Node ID 292
+                Node Depth 8
+                Prediction Dictionary {'acc': 2}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 145
+                Is maint == 4?
+                --> True:
+                Node ID 8
+                Node Depth 291
+                  Node ID 584
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 291
+                  Node ID 583
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 3, 'acc': 3}
+                  Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 35
+            Is maint == 3?
+            --> True:
+            Node ID 6
+            Node Depth 71
+              Is lug_boot == med?
+              --> True:
+              Node ID 7
+              Node Depth 144
+                Node ID 290
+                Node Depth 8
+                Prediction Dictionary {'acc': 1, 'unacc': 2}
+                Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 144
+                Node ID 289
+                Node Depth 8
+                Prediction Dictionary {'unacc': 2, 'acc': 2}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 71
+              Is maint == 5more?
+              --> True:
+              Node ID 7
+              Node Depth 143
+                Is lug_boot == high?
+                --> True:
+                Node ID 8
+                Node Depth 288
+                  Node ID 578
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 288
+                  Node ID 577
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 2}
+                  Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 143
+                Node ID 287
+                Node Depth 8
+                Prediction Dictionary {'unacc': 8, 'acc': 8}
+                Predicted class label unacc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 34
+            Is maint == 4?
+            --> True:
+            Node ID 6
+            Node Depth 70
+              Node ID 142
+              Node Depth 7
+              Prediction Dictionary {'unacc': 6, 'acc': 2}
+              Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 70
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 141
+                Is maint == 2?
+                --> True:
+                Node ID 8
+                Node Depth 284
+                  Node ID 570
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 1, 'acc': 1}
+                  Predicted class label unacc
+                --> False:
+                Node ID 8
+                Node Depth 284
+                  Node ID 569
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 6}
+                  Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 141
+                Is maint == 2?
+                --> True:
+                Node ID 8
+                Node Depth 283
+                  Node ID 568
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 3}
+                  Predicted class label unacc
+                --> False:
+                Node ID 8
+                Node Depth 283
+                  Node ID 567
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4, 'acc': 2}
+                  Predicted class label unacc
+          --> False:
+          Node ID 5
+          Node Depth 34
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 69
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 140
+                Node ID 282
+                Node Depth 8
+                Prediction Dictionary {'acc': 3, 'unacc': 3}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 140
+                Node ID 281
+                Node Depth 8
+                Prediction Dictionary {'unacc': 7}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 69
+              Is maint == 3?
+              --> True:
+              Node ID 7
+              Node Depth 139
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 280
+                  Is buying == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 562
+                    Node ID 1126
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1}
+                    Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 562
+                    Node ID 1125
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 2}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 280
+                  Is buying == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 561
+                    Node ID 1124
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 2}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 561
+                    Node ID 1123
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 2}
+                    Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 139
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 279
+                  Is maint == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 560
+                    Is buying == med?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1122
+                      Node ID 2246
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 2, 'acc': 1}
+                      Predicted class label unacc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1122
+                      Node ID 2245
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 2, 'acc': 2}
+                      Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 560
+                    Node ID 1121
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 4, 'unacc': 4}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 279
+                  Is maint == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 559
+                    Is buying == med?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1120
+                      Node ID 2242
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'unacc': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1120
+                      Node ID 2241
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'unacc': 2}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 559
+                    Node ID 1119
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 4, 'acc': 4}
+                    Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 33
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 68
+              Is persons == med?
+              --> True:
+              Node ID 7
+              Node Depth 138
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 278
+                  Node ID 558
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 3}
+                  Predicted class label unacc
+                --> False:
+                Node ID 8
+                Node Depth 278
+                  Node ID 557
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 3, 'acc': 1}
+                  Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 138
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 277
+                  Node ID 556
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 277
+                  Node ID 555
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 3, 'unacc': 1}
+                  Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 68
+              Is doors == more?
+              --> True:
+              Node ID 7
+              Node Depth 137
+                Is maint == 4?
+                --> True:
+                Node ID 8
+                Node Depth 276
+                  Node ID 554
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 6}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 276
+                  Is persons == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 553
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1108
+                      Node ID 2218
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1108
+                      Node ID 2217
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'unacc': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 553
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1107
+                      Node ID 2216
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'unacc': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1107
+                      Node ID 2215
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 1, 'acc': 1}
+                      Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 137
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 275
+                  Is persons == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 552
+                    Node ID 1106
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 1, 'unacc': 3}
+                    Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 552
+                    Node ID 1105
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1, 'acc': 3}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 275
+                  Is persons == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 551
+                    Is maint == 5more?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1104
+                      Node ID 2210
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'unacc': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1104
+                      Node ID 2209
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'unacc': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 551
+                    Node ID 1103
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 4, 'unacc': 2}
+                    Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 33
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 67
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 136
+                Is buying == med?
+                --> True:
+                Node ID 8
+                Node Depth 274
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 550
+                    Node ID 1102
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 550
+                    Node ID 1101
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 2}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 274
+                  Node ID 549
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 4, 'acc': 2}
+                  Predicted class label unacc
+              --> False:
+              Node ID 7
+              Node Depth 136
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 273
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 548
+                    Is buying == low?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1098
+                      Node ID 2198
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'unacc': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1098
+                      Node ID 2197
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 2, 'acc': 2}
+                      Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 548
+                    Is buying == med?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1097
+                      Node ID 2196
+                      Node Depth 11
+                      Prediction Dictionary {'good': 1, 'acc': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1097
+                      Node ID 2195
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'good': 2}
+                      Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 273
+                  Is buying == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 547
+                    Is doors == 4?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1096
+                      Is maint == 4?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2194
+                        Node ID 4390
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 2, 'good': 1}
+                        Predicted class label acc
+                      --> False:
+                      Node ID 11
+                      Node Depth 2194
+                        Node ID 4389
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 3, 'good': 1}
+                        Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1096
+                      Node ID 2193
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 4, 'good': 2}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 547
+                    Is doors == more?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1095
+                      Node ID 2192
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 4, 'good': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1095
+                      Node ID 2191
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 4, 'good': 4}
+                      Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 67
+              Is buying == med?
+              --> True:
+              Node ID 7
+              Node Depth 135
+                Is maint == 4?
+                --> True:
+                Node ID 8
+                Node Depth 272
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 546
+                    Node ID 1094
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'good': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 546
+                    Node ID 1093
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 272
+                  Is maint == 5more?
+                  --> True:
+                  Node ID 9
+                  Node Depth 545
+                    Is doors == more?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1092
+                      Node ID 2186
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'good': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1092
+                      Node ID 2185
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'good': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 545
+                    Node ID 1091
+                    Node Depth 10
+                    Prediction Dictionary {'good': 4, 'acc': 8}
+                    Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 135
+                Is maint == 2?
+                --> True:
+                Node ID 8
+                Node Depth 271
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 544
+                    Node ID 1090
+                    Node Depth 10
+                    Prediction Dictionary {'good': 1, 'acc': 1}
+                    Predicted class label good
+                  --> False:
+                  Node ID 9
+                  Node Depth 544
+                    Node ID 1089
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'good': 1}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 271
+                  Node ID 543
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 12, 'good': 12}
+                  Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 32
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 66
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 134
+                Node ID 270
+                Node Depth 8
+                Prediction Dictionary {'acc': 2, 'unacc': 1}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 134
+                Node ID 269
+                Node Depth 8
+                Prediction Dictionary {'unacc': 3}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 66
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 133
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 268
+                  Node ID 538
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 1, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 268
+                  Node ID 537
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 4, 'unacc': 2}
+                  Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 133
+                Is maint == 5more?
+                --> True:
+                Node ID 8
+                Node Depth 267
+                  Node ID 536
+                  Node Depth 9
+                  Prediction Dictionary {'unacc': 1, 'acc': 2}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 267
+                  Node ID 535
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 6, 'unacc': 2}
+                  Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 32
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 65
+              Is doors == 4?
+              --> True:
+              Node ID 7
+              Node Depth 132
+                Is buying == med?
+                --> True:
+                Node ID 8
+                Node Depth 266
+                  Node ID 534
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 266
+                  Node ID 533
+                  Node Depth 9
+                  Prediction Dictionary {'good': 2, 'acc': 1}
+                  Predicted class label good
+              --> False:
+              Node ID 7
+              Node Depth 132
+                Node ID 265
+                Node Depth 8
+                Prediction Dictionary {'unacc': 5}
+                Predicted class label unacc
+            --> False:
+            Node ID 6
+            Node Depth 65
+              Is buying == med?
+              --> True:
+              Node ID 7
+              Node Depth 131
+                Is doors == more?
+                --> True:
+                Node ID 8
+                Node Depth 264
+                  Is maint == 3?
+                  --> True:
+                  Node ID 9
+                  Node Depth 530
+                    Node ID 1062
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 3, 'good': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 530
+                    Node ID 1061
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 6}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 264
+                  Is maint == 5more?
+                  --> True:
+                  Node ID 9
+                  Node Depth 529
+                    Node ID 1060
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'good': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 529
+                    Node ID 1059
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 6, 'good': 2}
+                    Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 131
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 263
+                  Node ID 528
+                  Node Depth 9
+                  Prediction Dictionary {'good': 4, 'acc': 2}
+                  Predicted class label good
+                --> False:
+                Node ID 8
+                Node Depth 263
+                  Is doors == more?
+                  --> True:
+                  Node ID 9
+                  Node Depth 527
+                    Node ID 1056
+                    Node Depth 10
+                    Prediction Dictionary {'good': 4, 'acc': 4}
+                    Predicted class label good
+                  --> False:
+                  Node ID 9
+                  Node Depth 527
+                    Is maint == 4?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1055
+                      Node ID 2112
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 1, 'good': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1055
+                      Node ID 2111
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 1, 'good': 2}
+                      Predicted class label good
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Is buying == high?
+          --> True:
+          Node ID 5
+          Node Depth 31
+            Is maint == 2?
+            --> True:
+            Node ID 6
+            Node Depth 64
+              Is persons == med?
+              --> True:
+              Node ID 7
+              Node Depth 130
+                Node ID 262
+                Node Depth 8
+                Prediction Dictionary {'acc': 4, 'unacc': 2}
+                Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 130
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 261
+                  Node ID 524
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 2, 'unacc': 1}
+                  Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 261
+                  Node ID 523
+                  Node Depth 9
+                  Prediction Dictionary {'acc': 1, 'vgood': 1, 'unacc': 1}
+                  Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 64
+              Is maint == 5more?
+              --> True:
+              Node ID 7
+              Node Depth 129
+                Is doors == 4?
+                --> True:
+                Node ID 8
+                Node Depth 260
+                  Is persons == med?
+                  --> True:
+                  Node ID 9
+                  Node Depth 522
+                    Node ID 1046
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'vgood': 1, 'unacc': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 522
+                    Node ID 1045
+                    Node Depth 10
+                    Prediction Dictionary {'vgood': 1, 'acc': 1, 'unacc': 1}
+                    Predicted class label vgood
+                --> False:
+                Node ID 8
+                Node Depth 260
+                  Is persons == big?
+                  --> True:
+                  Node ID 9
+                  Node Depth 521
+                    Node ID 1044
+                    Node Depth 10
+                    Prediction Dictionary {'unacc': 1, 'acc': 2}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 521
+                    Node ID 1043
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'unacc': 1, 'vgood': 1}
+                    Predicted class label acc
+              --> False:
+              Node ID 7
+              Node Depth 129
+                Is persons == med?
+                --> True:
+                Node ID 8
+                Node Depth 259
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 520
+                    Is maint == 4?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1042
+                      Node ID 2086
+                      Node Depth 11
+                      Prediction Dictionary {'vgood': 1, 'acc': 1, 'unacc': 1}
+                      Predicted class label vgood
+                    --> False:
+                    Node ID 10
+                    Node Depth 1042
+                      Node ID 2085
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 1, 'acc': 1}
+                      Predicted class label unacc
+                  --> False:
+                  Node ID 9
+                  Node Depth 520
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1041
+                      Node ID 2084
+                      Node Depth 11
+                      Prediction Dictionary {'vgood': 1, 'acc': 1, 'unacc': 1}
+                      Predicted class label vgood
+                    --> False:
+                    Node ID 10
+                    Node Depth 1041
+                      Node ID 2083
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'unacc': 1, 'vgood': 1}
+                      Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 259
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 519
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1040
+                      Node ID 2082
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'vgood': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1040
+                      Node ID 2081
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'vgood': 1, 'unacc': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 519
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1039
+                      Node ID 2080
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 1, 'vgood': 1, 'unacc': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1039
+                      Node ID 2079
+                      Node Depth 11
+                      Prediction Dictionary {'unacc': 1, 'acc': 2, 'vgood': 1}
+                      Predicted class label acc
+          --> False:
+          Node ID 5
+          Node Depth 31
+            Is persons == med?
+            --> True:
+            Node ID 6
+            Node Depth 63
+              Is maint == 2?
+              --> True:
+              Node ID 7
+              Node Depth 128
+                Is buying == med?
+                --> True:
+                Node ID 8
+                Node Depth 258
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 518
+                    Node ID 1038
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 2, 'good': 1}
+                    Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 518
+                    Node ID 1037
+                    Node Depth 10
+                    Prediction Dictionary {'acc': 3, 'good': 1}
+                    Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 258
+                  Node ID 517
+                  Node Depth 9
+                  Prediction Dictionary {'good': 3, 'acc': 3}
+                  Predicted class label good
+              --> False:
+              Node ID 7
+              Node Depth 128
+                Is maint == 3?
+                --> True:
+                Node ID 8
+                Node Depth 257
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 516
+                    Is buying == low?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1034
+                      Node ID 2070
+                      Node Depth 11
+                      Prediction Dictionary {'good': 2, 'acc': 1}
+                      Predicted class label good
+                    --> False:
+                    Node ID 10
+                    Node Depth 1034
+                      Node ID 2069
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 3, 'good': 1}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 516
+                    Node ID 1033
+                    Node Depth 10
+                    Prediction Dictionary {'vgood': 3, 'acc': 3}
+                    Predicted class label vgood
+                --> False:
+                Node ID 8
+                Node Depth 257
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 515
+                    Is maint == 5more?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1032
+                      Is buying == med?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2066
+                        Node ID 4134
+                        Node Depth 12
+                        Prediction Dictionary {'vgood': 2}
+                        Predicted class label vgood
+                      --> False:
+                      Node ID 11
+                      Node Depth 2066
+                        Node ID 4133
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 1, 'vgood': 2}
+                        Predicted class label vgood
+                    --> False:
+                    Node ID 10
+                    Node Depth 1032
+                      Is buying == med?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2065
+                        Node ID 4132
+                        Node Depth 12
+                        Prediction Dictionary {'vgood': 1, 'acc': 2}
+                        Predicted class label acc
+                      --> False:
+                      Node ID 11
+                      Node Depth 2065
+                        Node ID 4131
+                        Node Depth 12
+                        Prediction Dictionary {'vgood': 2, 'acc': 1}
+                        Predicted class label vgood
+                  --> False:
+                  Node ID 9
+                  Node Depth 515
+                    Is maint == 5more?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1031
+                      Is buying == med?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2064
+                        Node ID 4130
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 2, 'vgood': 1}
+                        Predicted class label acc
+                      --> False:
+                      Node ID 11
+                      Node Depth 2064
+                        Node ID 4129
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 2}
+                        Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1031
+                      Is buying == med?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2063
+                        Node ID 4128
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 2, 'vgood': 1}
+                        Predicted class label acc
+                      --> False:
+                      Node ID 11
+                      Node Depth 2063
+                        Node ID 4127
+                        Node Depth 12
+                        Prediction Dictionary {'acc': 2, 'vgood': 2}
+                        Predicted class label acc
+            --> False:
+            Node ID 6
+            Node Depth 63
+              Is maint == 5more?
+              --> True:
+              Node ID 7
+              Node Depth 127
+                Node ID 256
+                Node Depth 8
+                Prediction Dictionary {'vgood': 8, 'acc': 6}
+                Predicted class label vgood
+              --> False:
+              Node ID 7
+              Node Depth 127
+                Is buying == med?
+                --> True:
+                Node ID 8
+                Node Depth 255
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 512
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1026
+                      Node ID 2054
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'vgood': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1026
+                      Node ID 2053
+                      Node Depth 11
+                      Prediction Dictionary {'vgood': 4, 'acc': 2}
+                      Predicted class label vgood
+                  --> False:
+                  Node ID 9
+                  Node Depth 512
+                    Is maint == 2?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1025
+                      Node ID 2052
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'vgood': 1}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1025
+                      Node ID 2051
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 4, 'vgood': 4}
+                      Predicted class label acc
+                --> False:
+                Node ID 8
+                Node Depth 255
+                  Is doors == 4?
+                  --> True:
+                  Node ID 9
+                  Node Depth 511
+                    Is maint == 3?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1024
+                      Node ID 2050
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 2, 'vgood': 2}
+                      Predicted class label acc
+                    --> False:
+                    Node ID 10
+                    Node Depth 1024
+                      Node ID 2049
+                      Node Depth 11
+                      Prediction Dictionary {'acc': 4, 'vgood': 2}
+                      Predicted class label acc
+                  --> False:
+                  Node ID 9
+                  Node Depth 511
+                    Node ID 1023
+                    Node Depth 10
+                    Prediction Dictionary {'vgood': 5, 'acc': 5}
+                    Predicted class label vgood
+Accuracy on train = 0.84
+Accuracy on test = 0.76
+*************Tree after pruning  *******
+Is doors == 2?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 461}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is lug_boot == low?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 301}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 26}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Node ID 5
+          Node Depth 37
+          Prediction Dictionary {'unacc': 12, 'acc': 9}
+          Predicted class label unacc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is persons == med?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 36
+          Prediction Dictionary {'acc': 20, 'unacc': 28}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 35
+          Prediction Dictionary {'unacc': 26, 'acc': 29}
+          Predicted class label acc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 34
+          Prediction Dictionary {'acc': 27, 'unacc': 52}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'good': 34, 'acc': 98, 'unacc': 29}
+          Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'unacc': 15, 'acc': 42, 'good': 17}
+          Predicted class label acc
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'acc': 80, 'vgood': 53, 'unacc': 15, 'good': 8}
+          Predicted class label acc
+Accuracy on test = 0.84
+Strategy 1: Select n random nodes and prune them 
+*************Tree after pruning Using Strategy1  *******
+Is doors == 2?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 461}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is lug_boot == low?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 301}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 26}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Node ID 5
+          Node Depth 37
+          Prediction Dictionary {'unacc': 12, 'acc': 9}
+          Predicted class label unacc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is persons == med?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 36
+          Prediction Dictionary {'acc': 20, 'unacc': 28}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 35
+          Prediction Dictionary {'unacc': 26, 'acc': 29}
+          Predicted class label acc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 34
+          Prediction Dictionary {'acc': 27, 'unacc': 52}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'good': 34, 'acc': 98, 'unacc': 29}
+          Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'unacc': 15, 'acc': 42, 'good': 17}
+          Predicted class label acc
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'acc': 80, 'vgood': 53, 'unacc': 15, 'good': 8}
+          Predicted class label acc
+Accuracy on test = 0.84
+Strategy 2: Prune all nodes above leaf 
+*************Tree after pruning Using Strategy2  *******
+Is doors == 2?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 461}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is lug_boot == low?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 301}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 26}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Node ID 5
+          Node Depth 37
+          Prediction Dictionary {'unacc': 12, 'acc': 9}
+          Predicted class label unacc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is persons == med?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 36
+          Prediction Dictionary {'acc': 20, 'unacc': 28}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 35
+          Prediction Dictionary {'unacc': 26, 'acc': 29}
+          Predicted class label acc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 34
+          Prediction Dictionary {'acc': 27, 'unacc': 52}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'good': 34, 'acc': 98, 'unacc': 29}
+          Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'unacc': 15, 'acc': 42, 'good': 17}
+          Predicted class label acc
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'acc': 80, 'vgood': 53, 'unacc': 15, 'good': 8}
+          Predicted class label acc
+Accuracy on test = 0.84
+Strategy 3: Prune all inner nodes with maximum depth  
+Max inner node Depth   462851
+*************Tree after pruning Using Strategy3  *******
+Is doors == 2?
+--> True:
+Node ID 0
+Node Depth 0
+  Node ID 2
+  Node Depth 1
+  Prediction Dictionary {'unacc': 461}
+  Predicted class label unacc
+--> False:
+Node ID 0
+Node Depth 0
+  Is lug_boot == low?
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'unacc': 301}
+    Predicted class label unacc
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is buying == vhigh?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Is persons == small?
+      --> True:
+      Node ID 3
+      Node Depth 8
+        Is lug_boot == med?
+        --> True:
+        Node ID 4
+        Node Depth 18
+          Node ID 38
+          Node Depth 5
+          Prediction Dictionary {'unacc': 26}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 18
+          Node ID 5
+          Node Depth 37
+          Prediction Dictionary {'unacc': 12, 'acc': 9}
+          Predicted class label unacc
+      --> False:
+      Node ID 3
+      Node Depth 8
+        Is persons == med?
+        --> True:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 36
+          Prediction Dictionary {'acc': 20, 'unacc': 28}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 17
+          Node ID 5
+          Node Depth 35
+          Prediction Dictionary {'unacc': 26, 'acc': 29}
+          Predicted class label acc
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is lug_boot == med?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 34
+          Prediction Dictionary {'acc': 27, 'unacc': 52}
+          Predicted class label unacc
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'good': 34, 'acc': 98, 'unacc': 29}
+          Predicted class label acc
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is persons == small?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'unacc': 15, 'acc': 42, 'good': 17}
+          Predicted class label acc
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'acc': 80, 'vgood': 53, 'unacc': 15, 'good': 8}
+          Predicted class label acc
+Accuracy on test = 0.84

@@ -1,0 +1,48 @@
+REPORT:
+
+DATASETS USED:
+	1. IRIS
+	2. BREAST CANCER
+	3. CAR VALUATION
+	
+TRAIN TEST SPLIT:
+
+Train test split value is changed to 0.3 i.e. 30% of the dataset is taken as dataset for testing and 70% is used for training the model.
+This ratio is as per 70/30 rule in machine learning and is considered a best practice.
+
+	
+PRUNING:
+We implemented 3 pruning strategies.
+
+# STRATEGY 1: RANDOMLY PICK N NODES AND PRUNE THEM
+
+	Description: We pick n nodes (where value of n ranges from 4 to 30) using random fucntion in python and prune these nodes. The upper limit is taken as 30 and lower limit is taken as 4 (this is because the accuracy after pruning 4 nodes starts to increase as compared to accuracy of tree before pruning)
+
+# STRATEGY 2: PRUNE ALL NODES THAT ARE ONE LEVEL ABOVE LEAF
+
+	Description: For all the nodes in list of inner nodes, we calculate its children ID (children ID  are 2 * parentID + 1 and 2 * parentID + 2). We further check if these IDs are present in list of Leaf nodes and prune the parent node if they are present.
+
+# STRATEGY 3: PRUNE ALL NODES AT A CERTAIN DEPTH
+
+	Description: We calculate the maximum depth of all the inner nodes and prune all nodes present at this depth.
+
+
+OUTPUT:
+
+IRIS DATASET : 		ACCURACY BEFORE PRUNING:	0.97
+					ACCURACY AFTER PRUNING USING STRATEGY 1 :	0.93
+					ACCURACY AFTER PRUNING USING STRATEGY 2 :	0.93
+					ACCURACY AFTER PRUNING USING STRATEGY 3 :	0.93
+					
+Accuracy after pruning is less than accuracy before pruning. This could possibly be because we have arrived at the best case of decision tree before pruning. In such case, pruning a tree might result in decrease in accuracy.
+					
+BREAST CANCER DATASET : 		ACCURACY BEFORE PRUNING:	0.74
+								ACCURACY AFTER PRUNING USING STRATEGY 1 :	0.79
+								ACCURACY AFTER PRUNING USING STRATEGY 2 :	0.79
+								ACCURACY AFTER PRUNING USING STRATEGY 3 :	0.79
+					
+CAR VALUATION DATASET : 		ACCURACY BEFORE PRUNING:	0.76
+								ACCURACY AFTER PRUNING USING STRATEGY 1 :	0.84
+								ACCURACY AFTER PRUNING USING STRATEGY 2 :	0.84
+								ACCURACY AFTER PRUNING USING STRATEGY 3 :	0.84
+								

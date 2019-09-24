@@ -1,0 +1,3127 @@
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is node-caps == no?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is age == 50-59?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Is Class == no-recurrence-events?
+      --> True:
+      Node ID 3
+      Node Depth 14
+        Node ID 30
+        Node Depth 4
+        Prediction Dictionary {'no': 54}
+        Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 14
+        Is breast == right?
+        --> True:
+        Node ID 4
+        Node Depth 29
+          Is deg-malig >= 3?
+          --> True:
+          Node ID 5
+          Node Depth 60
+            Node ID 122
+            Node Depth 6
+            Prediction Dictionary {'yes': 2}
+            Predicted class label yes
+          --> False:
+          Node ID 5
+          Node Depth 60
+            Node ID 121
+            Node Depth 6
+            Prediction Dictionary {'no': 2}
+            Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 29
+          Node ID 59
+          Node Depth 5
+          Prediction Dictionary {'no': 7}
+          Predicted class label no
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Is tumor-size == 45-49?
+      --> True:
+      Node ID 3
+      Node Depth 13
+        Node ID 28
+        Node Depth 4
+        Prediction Dictionary {'yes': 2}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 13
+        Is breast-quad == central?
+        --> True:
+        Node ID 4
+        Node Depth 27
+          Node ID 56
+          Node Depth 5
+          Prediction Dictionary {'no': 10}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 27
+          Is deg-malig >= 2?
+          --> True:
+          Node ID 5
+          Node Depth 55
+            Is tumor-size == 35-39?
+            --> True:
+            Node ID 6
+            Node Depth 112
+              Node ID 226
+              Node Depth 7
+              Prediction Dictionary {'no': 4}
+              Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 112
+              Is tumor-size == 20-24?
+              --> True:
+              Node ID 7
+              Node Depth 225
+                Is deg-malig >= 3?
+                --> True:
+                Node ID 8
+                Node Depth 452
+                  Is menopause == ge40?
+                  --> True:
+                  Node ID 9
+                  Node Depth 906
+                    Node ID 1814
+                    Node Depth 10
+                    Prediction Dictionary {'no': 4}
+                    Predicted class label no
+                  --> False:
+                  Node ID 9
+                  Node Depth 906
+                    Node ID 1813
+                    Node Depth 10
+                    Prediction Dictionary {'yes': 2}
+                    Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 452
+                  Node ID 905
+                  Node Depth 9
+                  Prediction Dictionary {'no': 11}
+                  Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 225
+                Is breast-quad == left_up?
+                --> True:
+                Node ID 8
+                Node Depth 451
+                  Is menopause == ge40?
+                  --> True:
+                  Node ID 9
+                  Node Depth 904
+                    Is tumor-size == 25-29?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1810
+                      Node ID 3622
+                      Node Depth 11
+                      Prediction Dictionary {'no': 2}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1810
+                      Is tumor-size == 10-14?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3621
+                        Node ID 7244
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 3621
+                        Is age == 60-69?
+                        --> True:
+                        Node ID 12
+                        Node Depth 7243
+                          Is deg-malig >= 3?
+                          --> True:
+                          Node ID 13
+                          Node Depth 14488
+                            Is tumor-size == 50-54?
+                            --> True:
+                            Node ID 14
+                            Node Depth 28978
+                              Node ID 57958
+                              Node Depth 15
+                              Prediction Dictionary {'no': 1}
+                              Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 28978
+                              Node ID 57957
+                              Node Depth 15
+                              Prediction Dictionary {'yes': 2}
+                              Predicted class label yes
+                          --> False:
+                          Node ID 13
+                          Node Depth 14488
+                            Is tumor-size == 50-54?
+                            --> True:
+                            Node ID 14
+                            Node Depth 28977
+                              Node ID 57956
+                              Node Depth 15
+                              Prediction Dictionary {'yes': 1}
+                              Predicted class label yes
+                            --> False:
+                            Node ID 14
+                            Node Depth 28977
+                              Is breast == left?
+                              --> True:
+                              Node ID 15
+                              Node Depth 57955
+                                Is tumor-size == 15-19?
+                                --> True:
+                                Node ID 16
+                                Node Depth 115912
+                                  Node ID 231826
+                                  Node Depth 17
+                                  Prediction Dictionary {'yes': 1}
+                                  Predicted class label yes
+                                --> False:
+                                Node ID 16
+                                Node Depth 115912
+                                  Node ID 231825
+                                  Node Depth 17
+                                  Prediction Dictionary {'no': 1}
+                                  Predicted class label no
+                              --> False:
+                              Node ID 15
+                              Node Depth 57955
+                                Node ID 115911
+                                Node Depth 16
+                                Prediction Dictionary {'no': 2}
+                                Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 7243
+                          Node ID 14487
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 1}
+                          Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 904
+                    Is tumor-size == 25-29?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1809
+                      Is Class == recurrence-events?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3620
+                        Node ID 7242
+                        Node Depth 12
+                        Prediction Dictionary {'no': 1}
+                        Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 3620
+                        Is deg-malig >= 3?
+                        --> True:
+                        Node ID 12
+                        Node Depth 7241
+                          Node ID 14484
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 1}
+                          Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 7241
+                          Is breast == left?
+                          --> True:
+                          Node ID 13
+                          Node Depth 14483
+                            Node ID 28968
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1, 'yes': 1}
+                            Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 14483
+                            Node ID 28967
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1}
+                            Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1809
+                      Node ID 3619
+                      Node Depth 11
+                      Prediction Dictionary {'no': 7}
+                      Predicted class label no
+                --> False:
+                Node ID 8
+                Node Depth 451
+                  Is Class == recurrence-events?
+                  --> True:
+                  Node ID 9
+                  Node Depth 903
+                    Is breast-quad == right_up?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1808
+                      Node ID 3618
+                      Node Depth 11
+                      Prediction Dictionary {'no': 2}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1808
+                      Is breast == right?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3617
+                        Is tumor-size == 50-54?
+                        --> True:
+                        Node ID 12
+                        Node Depth 7236
+                          Node ID 14474
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 1}
+                          Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 7236
+                          Node ID 14473
+                          Node Depth 13
+                          Prediction Dictionary {'no': 3}
+                          Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 3617
+                        Node ID 7235
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 2}
+                        Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 903
+                    Is tumor-size == 25-29?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1807
+                      Node ID 3616
+                      Node Depth 11
+                      Prediction Dictionary {'no': 7}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1807
+                      Is breast-quad == right_low?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3615
+                        Node ID 7232
+                        Node Depth 12
+                        Prediction Dictionary {'no': 5}
+                        Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 3615
+                        Is tumor-size == 15-19?
+                        --> True:
+                        Node ID 12
+                        Node Depth 7231
+                          Node ID 14464
+                          Node Depth 13
+                          Prediction Dictionary {'no': 4}
+                          Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 7231
+                          Is deg-malig >= 3?
+                          --> True:
+                          Node ID 13
+                          Node Depth 14463
+                            Node ID 28928
+                            Node Depth 14
+                            Prediction Dictionary {'no': 3}
+                            Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 14463
+                            Is tumor-size == 30-34?
+                            --> True:
+                            Node ID 14
+                            Node Depth 28927
+                              Is breast-quad == left_low?
+                              --> True:
+                              Node ID 15
+                              Node Depth 57856
+                                Node ID 115714
+                                Node Depth 16
+                                Prediction Dictionary {'no': 1, 'yes': 1}
+                                Predicted class label no
+                              --> False:
+                              Node ID 15
+                              Node Depth 57856
+                                Node ID 115713
+                                Node Depth 16
+                                Prediction Dictionary {'yes': 1}
+                                Predicted class label yes
+                            --> False:
+                            Node ID 14
+                            Node Depth 28927
+                              Is breast == left?
+                              --> True:
+                              Node ID 15
+                              Node Depth 57855
+                                Is tumor-size == 40-44?
+                                --> True:
+                                Node ID 16
+                                Node Depth 115712
+                                  Node ID 231426
+                                  Node Depth 17
+                                  Prediction Dictionary {'yes': 1}
+                                  Predicted class label yes
+                                --> False:
+                                Node ID 16
+                                Node Depth 115712
+                                  Is tumor-size == 50-54?
+                                  --> True:
+                                  Node ID 17
+                                  Node Depth 231425
+                                    Node ID 462852
+                                    Node Depth 18
+                                    Prediction Dictionary {'no': 2}
+                                    Predicted class label no
+                                  --> False:
+                                  Node ID 17
+                                  Node Depth 231425
+                                    Is menopause == premeno?
+                                    --> True:
+                                    Node ID 18
+                                    Node Depth 462851
+                                      Node ID 925704
+                                      Node Depth 19
+                                      Prediction Dictionary {'no': 1, 'yes': 1}
+                                      Predicted class label no
+                                    --> False:
+                                    Node ID 18
+                                    Node Depth 462851
+                                      Node ID 925703
+                                      Node Depth 19
+                                      Prediction Dictionary {'no': 1}
+                                      Predicted class label no
+                              --> False:
+                              Node ID 15
+                              Node Depth 57855
+                                Node ID 115711
+                                Node Depth 16
+                                Prediction Dictionary {'no': 3}
+                                Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 55
+            Is breast-quad == left_low?
+            --> True:
+            Node ID 6
+            Node Depth 111
+              Is age == 40-49?
+              --> True:
+              Node ID 7
+              Node Depth 224
+                Is tumor-size == 25-29?
+                --> True:
+                Node ID 8
+                Node Depth 450
+                  Node ID 902
+                  Node Depth 9
+                  Prediction Dictionary {'yes': 1}
+                  Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 450
+                  Is tumor-size == 5-9?
+                  --> True:
+                  Node ID 9
+                  Node Depth 901
+                    Node ID 1804
+                    Node Depth 10
+                    Prediction Dictionary {'yes': 1}
+                    Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 901
+                    Is tumor-size == 30-34?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1803
+                      Is Class == recurrence-events?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3608
+                        Node ID 7218
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 3608
+                        Node ID 7217
+                        Node Depth 12
+                        Prediction Dictionary {'no': 1}
+                        Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1803
+                      Node ID 3607
+                      Node Depth 11
+                      Prediction Dictionary {'no': 3}
+                      Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 224
+                Node ID 449
+                Node Depth 8
+                Prediction Dictionary {'no': 9}
+                Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 111
+              Node ID 223
+              Node Depth 7
+              Prediction Dictionary {'no': 24}
+              Predicted class label no
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is tumor-size == 20-24?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'no': 3}
+      Predicted class label no
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is Class == recurrence-events?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Is deg-malig >= 3?
+        --> True:
+        Node ID 4
+        Node Depth 24
+          Node ID 50
+          Node Depth 5
+          Prediction Dictionary {'no': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 24
+          Node ID 49
+          Node Depth 5
+          Prediction Dictionary {'yes': 1}
+          Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is tumor-size == 25-29?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Is breast-quad == left_up?
+          --> True:
+          Node ID 5
+          Node Depth 48
+            Node ID 98
+            Node Depth 6
+            Prediction Dictionary {'no': 1}
+            Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 48
+            Node ID 97
+            Node Depth 6
+            Prediction Dictionary {'yes': 1}
+            Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Node ID 47
+          Node Depth 5
+          Prediction Dictionary {'yes': 4}
+          Predicted class label yes
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 5}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 40-44?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is breast-quad == left_low?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Is inv-nodes == 6-8?
+          --> True:
+          Node ID 5
+          Node Depth 34
+            Node ID 70
+            Node Depth 6
+            Prediction Dictionary {'yes': 2}
+            Predicted class label yes
+          --> False:
+          Node ID 5
+          Node Depth 34
+            Node ID 69
+            Node Depth 6
+            Prediction Dictionary {'no': 2}
+            Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 33
+          Node Depth 5
+          Prediction Dictionary {'yes': 4}
+          Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 15-17?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 32
+          Node Depth 5
+          Prediction Dictionary {'no': 5}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Is tumor-size == 25-29?
+          --> True:
+          Node ID 5
+          Node Depth 31
+            Is breast == left?
+            --> True:
+            Node ID 6
+            Node Depth 64
+              Node ID 130
+              Node Depth 7
+              Prediction Dictionary {'yes': 5}
+              Predicted class label yes
+            --> False:
+            Node ID 6
+            Node Depth 64
+              Is deg-malig >= 3?
+              --> True:
+              Node ID 7
+              Node Depth 129
+                Node ID 260
+                Node Depth 8
+                Prediction Dictionary {'no': 2}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 129
+                Is breast-quad == left_up?
+                --> True:
+                Node ID 8
+                Node Depth 259
+                  Node ID 520
+                  Node Depth 9
+                  Prediction Dictionary {'yes': 2}
+                  Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 259
+                  Node ID 519
+                  Node Depth 9
+                  Prediction Dictionary {'no': 1}
+                  Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 31
+            Is Class == no-recurrence-events?
+            --> True:
+            Node ID 6
+            Node Depth 63
+              Is inv-nodes == 9-11?
+              --> True:
+              Node ID 7
+              Node Depth 128
+                Node ID 258
+                Node Depth 8
+                Prediction Dictionary {'yes': 2}
+                Predicted class label yes
+              --> False:
+              Node ID 7
+              Node Depth 128
+                Is menopause == ge40?
+                --> True:
+                Node ID 8
+                Node Depth 257
+                  Node ID 516
+                  Node Depth 9
+                  Prediction Dictionary {'no': 5}
+                  Predicted class label no
+                --> False:
+                Node ID 8
+                Node Depth 257
+                  Is breast-quad == left_low?
+                  --> True:
+                  Node ID 9
+                  Node Depth 515
+                    Is inv-nodes == 6-8?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1032
+                      Node ID 2066
+                      Node Depth 11
+                      Prediction Dictionary {'yes': 1}
+                      Predicted class label yes
+                    --> False:
+                    Node ID 10
+                    Node Depth 1032
+                      Is breast == right?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2065
+                        Node ID 4132
+                        Node Depth 12
+                        Prediction Dictionary {'no': 2}
+                        Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 2065
+                        Is tumor-size == 20-24?
+                        --> True:
+                        Node ID 12
+                        Node Depth 4131
+                          Node ID 8264
+                          Node Depth 13
+                          Prediction Dictionary {'no': 1}
+                          Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 4131
+                          Node ID 8263
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 1}
+                          Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 515
+                    Is node-caps == yes?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1031
+                      Is breast-quad == right_up?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2064
+                        Node ID 4130
+                        Node Depth 12
+                        Prediction Dictionary {'no': 1}
+                        Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 2064
+                        Node ID 4129
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                    --> False:
+                    Node ID 10
+                    Node Depth 1031
+                      Node ID 2063
+                      Node Depth 11
+                      Prediction Dictionary {'no': 4}
+                      Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 63
+              Is tumor-size == 35-39?
+              --> True:
+              Node ID 7
+              Node Depth 127
+                Node ID 256
+                Node Depth 8
+                Prediction Dictionary {'no': 2}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 127
+                Is age == 60-69?
+                --> True:
+                Node ID 8
+                Node Depth 255
+                  Node ID 512
+                  Node Depth 9
+                  Prediction Dictionary {'yes': 4}
+                  Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 255
+                  Is age == 30-39?
+                  --> True:
+                  Node ID 9
+                  Node Depth 511
+                    Is tumor-size == 20-24?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1024
+                      Node ID 2050
+                      Node Depth 11
+                      Prediction Dictionary {'no': 1}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1024
+                      Node ID 2049
+                      Node Depth 11
+                      Prediction Dictionary {'yes': 3}
+                      Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 511
+                    Is breast-quad == left_up?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1023
+                      Node ID 2048
+                      Node Depth 11
+                      Prediction Dictionary {'no': 4}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1023
+                      Is tumor-size == 20-24?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2047
+                        Is age == 50-59?
+                        --> True:
+                        Node ID 12
+                        Node Depth 4096
+                          Node ID 8194
+                          Node Depth 13
+                          Prediction Dictionary {'no': 1}
+                          Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 4096
+                          Node ID 8193
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 3}
+                          Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 2047
+                        Is breast-quad == right_low?
+                        --> True:
+                        Node ID 12
+                        Node Depth 4095
+                          Is deg-malig >= 3?
+                          --> True:
+                          Node ID 13
+                          Node Depth 8192
+                            Is inv-nodes == 6-8?
+                            --> True:
+                            Node ID 14
+                            Node Depth 16386
+                              Node ID 32774
+                              Node Depth 15
+                              Prediction Dictionary {'no': 1}
+                              Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 16386
+                              Node ID 32773
+                              Node Depth 15
+                              Prediction Dictionary {'yes': 1}
+                              Predicted class label yes
+                          --> False:
+                          Node ID 13
+                          Node Depth 8192
+                            Node ID 16385
+                            Node Depth 14
+                            Prediction Dictionary {'yes': 1}
+                            Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 4095
+                          Node ID 8191
+                          Node Depth 13
+                          Prediction Dictionary {'no': 3}
+                          Predicted class label no
+********** Leaf nodes ****************
+id = 14 depth =3
+id = 28 depth =4
+id = 27 depth =4
+id = 54 depth =5
+id = 53 depth =5
+id = 25 depth =4
+id = 24 depth =4
+id = 23 depth =4
+id = 1 depth =1
+id = 14 depth =3
+id = 3 depth =13
+id = 12 depth =3
+id = 11 depth =3
+id = 1 depth =1
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 30 depth =4
+id = 29 depth =4
+id = 13 depth =3
+id = 12 depth =3
+id = 5 depth =50
+id = 5 depth =49
+id = 5 depth =48
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 34 depth =5
+id = 5 depth =33
+id = 32 depth =5
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 5 depth =62
+id = 61 depth =5
+id = 5 depth =60
+id = 59 depth =5
+id = 5 depth =58
+id = 57 depth =5
+id = 5 depth =56
+id = 5 depth =55
+id = 54 depth =5
+id = 53 depth =5
+id = 25 depth =4
+id = 11 depth =3
+id = 4 depth =2
+id = 8 depth =3
+id = 5 depth =34
+id = 33 depth =5
+id = 5 depth =32
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+id = 14 depth =3
+id = 58 depth =5
+id = 5 depth =57
+id = 56 depth =5
+id = 5 depth =55
+id = 26 depth =4
+id = 25 depth =4
+id = 11 depth =3
+id = 4 depth =2
+id = 18 depth =4
+id = 36 depth =5
+id = 5 depth =35
+id = 34 depth =5
+id = 5 depth =33
+id = 32 depth =5
+id = 5 depth =31
+id = 30 depth =4
+id = 122 depth =6
+id = 121 depth =6
+id = 59 depth =5
+id = 28 depth =4
+id = 56 depth =5
+id = 226 depth =7
+id = 1814 depth =10
+id = 1813 depth =10
+id = 905 depth =9
+id = 3622 depth =11
+id = 7244 depth =12
+id = 57958 depth =15
+id = 57957 depth =15
+id = 57956 depth =15
+id = 231826 depth =17
+id = 231825 depth =17
+id = 115911 depth =16
+id = 14487 depth =13
+id = 7242 depth =12
+id = 14484 depth =13
+id = 28968 depth =14
+id = 28967 depth =14
+id = 3619 depth =11
+id = 3618 depth =11
+id = 14474 depth =13
+id = 14473 depth =13
+id = 7235 depth =12
+id = 3616 depth =11
+id = 7232 depth =12
+id = 14464 depth =13
+id = 28928 depth =14
+id = 115714 depth =16
+id = 115713 depth =16
+id = 231426 depth =17
+id = 462852 depth =18
+id = 925704 depth =19
+id = 925703 depth =19
+id = 115711 depth =16
+id = 902 depth =9
+id = 1804 depth =10
+id = 7218 depth =12
+id = 7217 depth =12
+id = 3607 depth =11
+id = 449 depth =8
+id = 223 depth =7
+id = 12 depth =3
+id = 50 depth =5
+id = 49 depth =5
+id = 98 depth =6
+id = 97 depth =6
+id = 47 depth =5
+id = 4 depth =2
+id = 8 depth =3
+id = 70 depth =6
+id = 69 depth =6
+id = 33 depth =5
+id = 32 depth =5
+id = 130 depth =7
+id = 260 depth =8
+id = 520 depth =9
+id = 519 depth =9
+id = 258 depth =8
+id = 516 depth =9
+id = 2066 depth =11
+id = 4132 depth =12
+id = 8264 depth =13
+id = 8263 depth =13
+id = 4130 depth =12
+id = 4129 depth =12
+id = 2063 depth =11
+id = 256 depth =8
+id = 512 depth =9
+id = 2050 depth =11
+id = 2049 depth =11
+id = 2048 depth =11
+id = 8194 depth =13
+id = 8193 depth =13
+id = 32774 depth =15
+id = 32773 depth =15
+id = 16385 depth =14
+id = 8191 depth =13
+********** Non-leaf nodes ****************
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 3 depth =11
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 2 depth =5
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 2 depth =5
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =30
+id = 4 depth =29
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =30
+id = 4 depth =29
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 4 depth =28
+id = 4 depth =27
+id = 2 depth =5
+id = 3 depth =12
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =8
+id = 4 depth =17
+id = 3 depth =7
+id = 4 depth =16
+id = 4 depth =15
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =14
+id = 4 depth =29
+id = 5 depth =60
+id = 3 depth =13
+id = 4 depth =27
+id = 5 depth =55
+id = 6 depth =112
+id = 7 depth =225
+id = 8 depth =452
+id = 9 depth =906
+id = 8 depth =451
+id = 9 depth =904
+id = 10 depth =1810
+id = 11 depth =3621
+id = 12 depth =7243
+id = 13 depth =14488
+id = 14 depth =28978
+id = 14 depth =28977
+id = 15 depth =57955
+id = 16 depth =115912
+id = 10 depth =1809
+id = 11 depth =3620
+id = 12 depth =7241
+id = 13 depth =14483
+id = 9 depth =903
+id = 10 depth =1808
+id = 11 depth =3617
+id = 12 depth =7236
+id = 10 depth =1807
+id = 11 depth =3615
+id = 12 depth =7231
+id = 13 depth =14463
+id = 14 depth =28927
+id = 15 depth =57856
+id = 15 depth =57855
+id = 16 depth =115712
+id = 17 depth =231425
+id = 18 depth =462851
+id = 6 depth =111
+id = 7 depth =224
+id = 8 depth =450
+id = 9 depth =901
+id = 10 depth =1803
+id = 11 depth =3608
+id = 2 depth =5
+id = 3 depth =11
+id = 4 depth =24
+id = 4 depth =23
+id = 5 depth =48
+id = 1 depth =1
+id = 2 depth =3
+id = 3 depth =7
+id = 4 depth =16
+id = 5 depth =34
+id = 4 depth =15
+id = 5 depth =31
+id = 6 depth =64
+id = 7 depth =129
+id = 8 depth =259
+id = 6 depth =63
+id = 7 depth =128
+id = 8 depth =257
+id = 9 depth =515
+id = 10 depth =1032
+id = 11 depth =2065
+id = 12 depth =4131
+id = 10 depth =1031
+id = 11 depth =2064
+id = 7 depth =127
+id = 8 depth =255
+id = 9 depth =511
+id = 10 depth =1024
+id = 10 depth =1023
+id = 11 depth =2047
+id = 12 depth =4096
+id = 12 depth =4095
+id = 13 depth =8192
+id = 14 depth =16386
+*************Tree before pruning*******
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is tumor-size == 45-49?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Node ID 6
+    Node Depth 2
+    Prediction Dictionary {'yes': 2}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is deg-malig >= 2?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is node-caps == no?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is age == 50-59?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Is Class == no-recurrence-events?
+          --> True:
+          Node ID 5
+          Node Depth 54
+            Node ID 110
+            Node Depth 6
+            Prediction Dictionary {'no': 25}
+            Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 54
+            Is breast == right?
+            --> True:
+            Node ID 6
+            Node Depth 109
+              Is breast-quad == central?
+              --> True:
+              Node ID 7
+              Node Depth 220
+                Node ID 442
+                Node Depth 8
+                Prediction Dictionary {'no': 1}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 220
+                Node ID 441
+                Node Depth 8
+                Prediction Dictionary {'yes': 2}
+                Predicted class label yes
+            --> False:
+            Node ID 6
+            Node Depth 109
+              Node ID 219
+              Node Depth 7
+              Prediction Dictionary {'no': 6}
+              Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Is breast-quad == central?
+          --> True:
+          Node ID 5
+          Node Depth 53
+            Node ID 108
+            Node Depth 6
+            Prediction Dictionary {'no': 7}
+            Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 53
+            Is breast-quad == left_up?
+            --> True:
+            Node ID 6
+            Node Depth 107
+              Is tumor-size == 20-24?
+              --> True:
+              Node ID 7
+              Node Depth 216
+                Is age == 30-39?
+                --> True:
+                Node ID 8
+                Node Depth 434
+                  Node ID 870
+                  Node Depth 9
+                  Prediction Dictionary {'yes': 1}
+                  Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 434
+                  Node ID 869
+                  Node Depth 9
+                  Prediction Dictionary {'no': 6}
+                  Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 216
+                Is menopause == ge40?
+                --> True:
+                Node ID 8
+                Node Depth 433
+                  Is tumor-size == 25-29?
+                  --> True:
+                  Node ID 9
+                  Node Depth 868
+                    Node ID 1738
+                    Node Depth 10
+                    Prediction Dictionary {'no': 2}
+                    Predicted class label no
+                  --> False:
+                  Node ID 9
+                  Node Depth 868
+                    Is tumor-size == 10-14?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1737
+                      Node ID 3476
+                      Node Depth 11
+                      Prediction Dictionary {'yes': 1}
+                      Predicted class label yes
+                    --> False:
+                    Node ID 10
+                    Node Depth 1737
+                      Is age == 60-69?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3475
+                        Is deg-malig >= 3?
+                        --> True:
+                        Node ID 12
+                        Node Depth 6952
+                          Is tumor-size == 50-54?
+                          --> True:
+                          Node ID 13
+                          Node Depth 13906
+                            Node ID 27814
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1}
+                            Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 13906
+                            Node ID 27813
+                            Node Depth 14
+                            Prediction Dictionary {'yes': 2}
+                            Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 6952
+                          Is tumor-size == 50-54?
+                          --> True:
+                          Node ID 13
+                          Node Depth 13905
+                            Node ID 27812
+                            Node Depth 14
+                            Prediction Dictionary {'yes': 1}
+                            Predicted class label yes
+                          --> False:
+                          Node ID 13
+                          Node Depth 13905
+                            Is breast == left?
+                            --> True:
+                            Node ID 14
+                            Node Depth 27811
+                              Is tumor-size == 15-19?
+                              --> True:
+                              Node ID 15
+                              Node Depth 55624
+                                Node ID 111250
+                                Node Depth 16
+                                Prediction Dictionary {'yes': 1}
+                                Predicted class label yes
+                              --> False:
+                              Node ID 15
+                              Node Depth 55624
+                                Node ID 111249
+                                Node Depth 16
+                                Prediction Dictionary {'no': 1}
+                                Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 27811
+                              Node ID 55623
+                              Node Depth 15
+                              Prediction Dictionary {'no': 2}
+                              Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 3475
+                        Node ID 6951
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                --> False:
+                Node ID 8
+                Node Depth 433
+                  Is tumor-size == 25-29?
+                  --> True:
+                  Node ID 9
+                  Node Depth 867
+                    Is Class == recurrence-events?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1736
+                      Node ID 3474
+                      Node Depth 11
+                      Prediction Dictionary {'no': 1}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1736
+                      Is deg-malig >= 3?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3473
+                        Node ID 6948
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 3473
+                        Is breast == left?
+                        --> True:
+                        Node ID 12
+                        Node Depth 6947
+                          Node ID 13896
+                          Node Depth 13
+                          Prediction Dictionary {'yes': 1, 'no': 1}
+                          Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 6947
+                          Node ID 13895
+                          Node Depth 13
+                          Prediction Dictionary {'no': 1}
+                          Predicted class label no
+                  --> False:
+                  Node ID 9
+                  Node Depth 867
+                    Node ID 1735
+                    Node Depth 10
+                    Prediction Dictionary {'no': 5}
+                    Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 107
+              Is tumor-size == 15-19?
+              --> True:
+              Node ID 7
+              Node Depth 215
+                Node ID 432
+                Node Depth 8
+                Prediction Dictionary {'no': 3}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 215
+                Is tumor-size == 35-39?
+                --> True:
+                Node ID 8
+                Node Depth 431
+                  Node ID 864
+                  Node Depth 9
+                  Prediction Dictionary {'no': 3}
+                  Predicted class label no
+                --> False:
+                Node ID 8
+                Node Depth 431
+                  Is tumor-size == 50-54?
+                  --> True:
+                  Node ID 9
+                  Node Depth 863
+                    Node ID 1728
+                    Node Depth 10
+                    Prediction Dictionary {'no': 2}
+                    Predicted class label no
+                  --> False:
+                  Node ID 9
+                  Node Depth 863
+                    Is breast == right?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1727
+                      Is tumor-size == 25-29?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3456
+                        Node ID 6914
+                        Node Depth 12
+                        Prediction Dictionary {'no': 6}
+                        Predicted class label no
+                      --> False:
+                      Node ID 11
+                      Node Depth 3456
+                        Is tumor-size == 40-44?
+                        --> True:
+                        Node ID 12
+                        Node Depth 6913
+                          Node ID 13828
+                          Node Depth 13
+                          Prediction Dictionary {'no': 2}
+                          Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 6913
+                          Is menopause == premeno?
+                          --> True:
+                          Node ID 13
+                          Node Depth 13827
+                            Is breast-quad == right_low?
+                            --> True:
+                            Node ID 14
+                            Node Depth 27656
+                              Node ID 55314
+                              Node Depth 15
+                              Prediction Dictionary {'no': 1}
+                              Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 27656
+                              Is tumor-size == 10-14?
+                              --> True:
+                              Node ID 15
+                              Node Depth 55313
+                                Node ID 110628
+                                Node Depth 16
+                                Prediction Dictionary {'no': 1}
+                                Predicted class label no
+                              --> False:
+                              Node ID 15
+                              Node Depth 55313
+                                Is breast-quad == right_up?
+                                --> True:
+                                Node ID 16
+                                Node Depth 110627
+                                  Is tumor-size == 30-34?
+                                  --> True:
+                                  Node ID 17
+                                  Node Depth 221256
+                                    Is deg-malig >= 3?
+                                    --> True:
+                                    Node ID 18
+                                    Node Depth 442514
+                                      Node ID 885030
+                                      Node Depth 19
+                                      Prediction Dictionary {'no': 1}
+                                      Predicted class label no
+                                    --> False:
+                                    Node ID 18
+                                    Node Depth 442514
+                                      Node ID 885029
+                                      Node Depth 19
+                                      Prediction Dictionary {'yes': 1}
+                                      Predicted class label yes
+                                  --> False:
+                                  Node ID 17
+                                  Node Depth 221256
+                                    Node ID 442513
+                                    Node Depth 18
+                                    Prediction Dictionary {'no': 1}
+                                    Predicted class label no
+                                --> False:
+                                Node ID 16
+                                Node Depth 110627
+                                  Node ID 221255
+                                  Node Depth 17
+                                  Prediction Dictionary {'yes': 1}
+                                  Predicted class label yes
+                          --> False:
+                          Node ID 13
+                          Node Depth 13827
+                            Node ID 27655
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1}
+                            Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1727
+                      Is tumor-size == 40-44?
+                      --> True:
+                      Node ID 11
+                      Node Depth 3455
+                        Node ID 6912
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 1}
+                        Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 3455
+                        Is Class == recurrence-events?
+                        --> True:
+                        Node ID 12
+                        Node Depth 6911
+                          Is breast-quad == right_up?
+                          --> True:
+                          Node ID 13
+                          Node Depth 13824
+                            Node ID 27650
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1}
+                            Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 13824
+                            Node ID 27649
+                            Node Depth 14
+                            Prediction Dictionary {'yes': 2}
+                            Predicted class label yes
+                        --> False:
+                        Node ID 12
+                        Node Depth 6911
+                          Is tumor-size == 10-14?
+                          --> True:
+                          Node ID 13
+                          Node Depth 13823
+                            Node ID 27648
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1, 'yes': 1}
+                            Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 13823
+                            Is age == 60-69?
+                            --> True:
+                            Node ID 14
+                            Node Depth 27647
+                              Is deg-malig >= 3?
+                              --> True:
+                              Node ID 15
+                              Node Depth 55296
+                                Node ID 110594
+                                Node Depth 16
+                                Prediction Dictionary {'no': 1}
+                                Predicted class label no
+                              --> False:
+                              Node ID 15
+                              Node Depth 55296
+                                Is tumor-size == 30-34?
+                                --> True:
+                                Node ID 16
+                                Node Depth 110593
+                                  Node ID 221188
+                                  Node Depth 17
+                                  Prediction Dictionary {'yes': 1, 'no': 1}
+                                  Predicted class label yes
+                                --> False:
+                                Node ID 16
+                                Node Depth 110593
+                                  Node ID 221187
+                                  Node Depth 17
+                                  Prediction Dictionary {'no': 1}
+                                  Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 27647
+                              Node ID 55295
+                              Node Depth 15
+                              Prediction Dictionary {'no': 7}
+                              Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Is breast-quad == left_up?
+        --> True:
+        Node ID 4
+        Node Depth 25
+          Is tumor-size == 50-54?
+          --> True:
+          Node ID 5
+          Node Depth 52
+            Node ID 106
+            Node Depth 6
+            Prediction Dictionary {'yes': 1}
+            Predicted class label yes
+          --> False:
+          Node ID 5
+          Node Depth 52
+            Is tumor-size == 35-39?
+            --> True:
+            Node ID 6
+            Node Depth 105
+              Node ID 212
+              Node Depth 7
+              Prediction Dictionary {'yes': 1}
+              Predicted class label yes
+            --> False:
+            Node ID 6
+            Node Depth 105
+              Node ID 211
+              Node Depth 7
+              Prediction Dictionary {'no': 3}
+              Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 25
+          Node ID 51
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is tumor-size == 5-9?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'yes': 1}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is Class == no-recurrence-events?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Node ID 48
+          Node Depth 5
+          Prediction Dictionary {'no': 43}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Is tumor-size == 30-34?
+          --> True:
+          Node ID 5
+          Node Depth 47
+            Is breast-quad == left_up?
+            --> True:
+            Node ID 6
+            Node Depth 96
+              Node ID 194
+              Node Depth 7
+              Prediction Dictionary {'no': 1}
+              Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 96
+              Node ID 193
+              Node Depth 7
+              Prediction Dictionary {'yes': 1}
+              Predicted class label yes
+          --> False:
+          Node ID 5
+          Node Depth 47
+            Node ID 95
+            Node Depth 6
+            Prediction Dictionary {'no': 8}
+            Predicted class label no
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 4}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 30-34?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 9-11?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 34
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Is age == 30-39?
+          --> True:
+          Node ID 5
+          Node Depth 33
+            Is breast-quad == left_up?
+            --> True:
+            Node ID 6
+            Node Depth 68
+              Node ID 138
+              Node Depth 7
+              Prediction Dictionary {'yes': 1}
+              Predicted class label yes
+            --> False:
+            Node ID 6
+            Node Depth 68
+              Node ID 137
+              Node Depth 7
+              Prediction Dictionary {'no': 1}
+              Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 33
+            Node ID 67
+            Node Depth 6
+            Prediction Dictionary {'no': 10}
+            Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 6-8?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Is breast-quad == central?
+          --> True:
+          Node ID 5
+          Node Depth 32
+            Node ID 66
+            Node Depth 6
+            Prediction Dictionary {'no': 1}
+            Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 32
+            Node ID 65
+            Node Depth 6
+            Prediction Dictionary {'yes': 6}
+            Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Is age == 50-59?
+          --> True:
+          Node ID 5
+          Node Depth 31
+            Is menopause == premeno?
+            --> True:
+            Node ID 6
+            Node Depth 64
+              Is breast-quad == right_up?
+              --> True:
+              Node ID 7
+              Node Depth 130
+                Node ID 262
+                Node Depth 8
+                Prediction Dictionary {'no': 1}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 130
+                Node ID 261
+                Node Depth 8
+                Prediction Dictionary {'yes': 2}
+                Predicted class label yes
+            --> False:
+            Node ID 6
+            Node Depth 64
+              Node ID 129
+              Node Depth 7
+              Prediction Dictionary {'no': 6}
+              Predicted class label no
+          --> False:
+          Node ID 5
+          Node Depth 31
+            Is tumor-size == 25-29?
+            --> True:
+            Node ID 6
+            Node Depth 63
+              Node ID 128
+              Node Depth 7
+              Prediction Dictionary {'no': 2}
+              Predicted class label no
+            --> False:
+            Node ID 6
+            Node Depth 63
+              Is breast-quad == central?
+              --> True:
+              Node ID 7
+              Node Depth 127
+                Node ID 256
+                Node Depth 8
+                Prediction Dictionary {'no': 1}
+                Predicted class label no
+              --> False:
+              Node ID 7
+              Node Depth 127
+                Is tumor-size == 15-19?
+                --> True:
+                Node ID 8
+                Node Depth 255
+                  Node ID 512
+                  Node Depth 9
+                  Prediction Dictionary {'no': 1}
+                  Predicted class label no
+                --> False:
+                Node ID 8
+                Node Depth 255
+                  Is breast-quad == right_up?
+                  --> True:
+                  Node ID 9
+                  Node Depth 511
+                    Node ID 1024
+                    Node Depth 10
+                    Prediction Dictionary {'yes': 2}
+                    Predicted class label yes
+                  --> False:
+                  Node ID 9
+                  Node Depth 511
+                    Is inv-nodes == 9-11?
+                    --> True:
+                    Node ID 10
+                    Node Depth 1023
+                      Node ID 2048
+                      Node Depth 11
+                      Prediction Dictionary {'no': 1}
+                      Predicted class label no
+                    --> False:
+                    Node ID 10
+                    Node Depth 1023
+                      Is breast == left?
+                      --> True:
+                      Node ID 11
+                      Node Depth 2047
+                        Node ID 4096
+                        Node Depth 12
+                        Prediction Dictionary {'yes': 3}
+                        Predicted class label yes
+                      --> False:
+                      Node ID 11
+                      Node Depth 2047
+                        Is breast-quad == left_low?
+                        --> True:
+                        Node ID 12
+                        Node Depth 4095
+                          Is deg-malig >= 3?
+                          --> True:
+                          Node ID 13
+                          Node Depth 8192
+                            Is node-caps == no?
+                            --> True:
+                            Node ID 14
+                            Node Depth 16386
+                              Node ID 32774
+                              Node Depth 15
+                              Prediction Dictionary {'yes': 1}
+                              Predicted class label yes
+                            --> False:
+                            Node ID 14
+                            Node Depth 16386
+                              Node ID 32773
+                              Node Depth 15
+                              Prediction Dictionary {'no': 1}
+                              Predicted class label no
+                          --> False:
+                          Node ID 13
+                          Node Depth 8192
+                            Node ID 16385
+                            Node Depth 14
+                            Prediction Dictionary {'no': 1}
+                            Predicted class label no
+                        --> False:
+                        Node ID 12
+                        Node Depth 4095
+                          Is node-caps == no?
+                          --> True:
+                          Node ID 13
+                          Node Depth 8191
+                            Is tumor-size == 20-24?
+                            --> True:
+                            Node ID 14
+                            Node Depth 16384
+                              Node ID 32770
+                              Node Depth 15
+                              Prediction Dictionary {'no': 1}
+                              Predicted class label no
+                            --> False:
+                            Node ID 14
+                            Node Depth 16384
+                              Node ID 32769
+                              Node Depth 15
+                              Prediction Dictionary {'yes': 1}
+                              Predicted class label yes
+                          --> False:
+                          Node ID 13
+                          Node Depth 8191
+                            Node ID 16383
+                            Node Depth 14
+                            Prediction Dictionary {'yes': 3}
+                            Predicted class label yes
+Accuracy on train = 0.99
+Accuracy on test = 0.74
+*************Tree after pruning  *******
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is tumor-size == 45-49?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Node ID 6
+    Node Depth 2
+    Prediction Dictionary {'yes': 2}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is deg-malig >= 2?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is node-caps == no?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is age == 50-59?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 54
+          Prediction Dictionary {'no': 32, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 53
+          Prediction Dictionary {'no': 60, 'yes': 16}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Is breast-quad == left_up?
+        --> True:
+        Node ID 4
+        Node Depth 25
+          Node ID 5
+          Node Depth 52
+          Prediction Dictionary {'no': 3, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 25
+          Node ID 51
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is tumor-size == 5-9?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'yes': 1}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is Class == no-recurrence-events?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Node ID 48
+          Node Depth 5
+          Prediction Dictionary {'no': 43}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Node ID 5
+          Node Depth 47
+          Prediction Dictionary {'no': 9, 'yes': 1}
+          Predicted class label no
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 4}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 30-34?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 9-11?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 34
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'no': 11, 'yes': 1}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 6-8?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'yes': 6, 'no': 1}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'no': 15, 'yes': 12}
+          Predicted class label no
+Accuracy on test = 0.79
+Strategy 1: Select n random nodes and prune them 
+*************Tree after pruning Using Strategy1  *******
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is tumor-size == 45-49?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Node ID 6
+    Node Depth 2
+    Prediction Dictionary {'yes': 2}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is deg-malig >= 2?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is node-caps == no?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is age == 50-59?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 54
+          Prediction Dictionary {'no': 32, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 53
+          Prediction Dictionary {'no': 60, 'yes': 16}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Is breast-quad == left_up?
+        --> True:
+        Node ID 4
+        Node Depth 25
+          Node ID 5
+          Node Depth 52
+          Prediction Dictionary {'no': 3, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 25
+          Node ID 51
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is tumor-size == 5-9?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'yes': 1}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is Class == no-recurrence-events?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Node ID 48
+          Node Depth 5
+          Prediction Dictionary {'no': 43}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Node ID 5
+          Node Depth 47
+          Prediction Dictionary {'no': 9, 'yes': 1}
+          Predicted class label no
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 4}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 30-34?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 9-11?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 34
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'no': 11, 'yes': 1}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 6-8?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'yes': 6, 'no': 1}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'no': 15, 'yes': 12}
+          Predicted class label no
+Accuracy on test = 0.79
+Strategy 2: Prune all nodes above leaf 
+*************Tree after pruning Using Strategy2  *******
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is tumor-size == 45-49?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Node ID 6
+    Node Depth 2
+    Prediction Dictionary {'yes': 2}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is deg-malig >= 2?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is node-caps == no?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is age == 50-59?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 54
+          Prediction Dictionary {'no': 32, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 53
+          Prediction Dictionary {'no': 60, 'yes': 16}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Is breast-quad == left_up?
+        --> True:
+        Node ID 4
+        Node Depth 25
+          Node ID 5
+          Node Depth 52
+          Prediction Dictionary {'no': 3, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 25
+          Node ID 51
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is tumor-size == 5-9?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'yes': 1}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is Class == no-recurrence-events?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Node ID 48
+          Node Depth 5
+          Prediction Dictionary {'no': 43}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Node ID 5
+          Node Depth 47
+          Prediction Dictionary {'no': 9, 'yes': 1}
+          Predicted class label no
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 4}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 30-34?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 9-11?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 34
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'no': 11, 'yes': 1}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 6-8?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'yes': 6, 'no': 1}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'no': 15, 'yes': 12}
+          Predicted class label no
+Accuracy on test = 0.79
+Strategy 3: Prune all inner nodes with maximum depth  
+Max inner node Depth   462851
+*************Tree after pruning Using Strategy3  *******
+Is inv-nodes == 0-2?
+--> True:
+Node ID 0
+Node Depth 0
+  Is tumor-size == 45-49?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Node ID 6
+    Node Depth 2
+    Prediction Dictionary {'yes': 2}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is deg-malig >= 2?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is node-caps == no?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is age == 50-59?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 54
+          Prediction Dictionary {'no': 32, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Node ID 5
+          Node Depth 53
+          Prediction Dictionary {'no': 60, 'yes': 16}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Is breast-quad == left_up?
+        --> True:
+        Node ID 4
+        Node Depth 25
+          Node ID 5
+          Node Depth 52
+          Prediction Dictionary {'no': 3, 'yes': 2}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 25
+          Node ID 51
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is tumor-size == 5-9?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'yes': 1}
+        Predicted class label yes
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Is Class == no-recurrence-events?
+        --> True:
+        Node ID 4
+        Node Depth 23
+          Node ID 48
+          Node Depth 5
+          Prediction Dictionary {'no': 43}
+          Predicted class label no
+        --> False:
+        Node ID 4
+        Node Depth 23
+          Node ID 5
+          Node Depth 47
+          Prediction Dictionary {'no': 9, 'yes': 1}
+          Predicted class label no
+--> False:
+Node ID 0
+Node Depth 0
+  Is node-caps == ??
+  --> True:
+  Node ID 1
+  Node Depth 1
+    Node ID 4
+    Node Depth 2
+    Prediction Dictionary {'yes': 4}
+    Predicted class label yes
+  --> False:
+  Node ID 1
+  Node Depth 1
+    Is inv-nodes == 12-14?
+    --> True:
+    Node ID 2
+    Node Depth 3
+      Node ID 8
+      Node Depth 3
+      Prediction Dictionary {'yes': 3}
+      Predicted class label yes
+    --> False:
+    Node ID 2
+    Node Depth 3
+      Is tumor-size == 30-34?
+      --> True:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 9-11?
+        --> True:
+        Node ID 4
+        Node Depth 16
+          Node ID 34
+          Node Depth 5
+          Prediction Dictionary {'yes': 2}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 16
+          Node ID 5
+          Node Depth 33
+          Prediction Dictionary {'no': 11, 'yes': 1}
+          Predicted class label no
+      --> False:
+      Node ID 3
+      Node Depth 7
+        Is inv-nodes == 6-8?
+        --> True:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 32
+          Prediction Dictionary {'yes': 6, 'no': 1}
+          Predicted class label yes
+        --> False:
+        Node ID 4
+        Node Depth 15
+          Node ID 5
+          Node Depth 31
+          Prediction Dictionary {'no': 15, 'yes': 12}
+          Predicted class label no
+Accuracy on test = 0.79

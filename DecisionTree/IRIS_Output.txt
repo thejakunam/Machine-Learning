@@ -1,0 +1,421 @@
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalW >= 1.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 4.9?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 43}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Is SepalW >= 3.2?
+      --> True:
+      Node ID 3
+      Node Depth 13
+        Node ID 28
+        Node Depth 4
+        Prediction Dictionary {'Iris-versicolor': 1}
+        Predicted class label Iris-versicolor
+      --> False:
+      Node ID 3
+      Node Depth 13
+        Node ID 27
+        Node Depth 4
+        Prediction Dictionary {'Iris-virginica': 2}
+        Predicted class label Iris-virginica
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.0?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Is PetalW >= 1.6?
+      --> True:
+      Node ID 3
+      Node Depth 12
+        Is PetalL >= 5.8?
+        --> True:
+        Node ID 4
+        Node Depth 26
+          Node ID 54
+          Node Depth 5
+          Prediction Dictionary {'Iris-virginica': 1}
+          Predicted class label Iris-virginica
+        --> False:
+        Node ID 4
+        Node Depth 26
+          Node ID 53
+          Node Depth 5
+          Prediction Dictionary {'Iris-versicolor': 2}
+          Predicted class label Iris-versicolor
+      --> False:
+      Node ID 3
+      Node Depth 12
+        Node ID 25
+        Node Depth 4
+        Prediction Dictionary {'Iris-virginica': 3}
+        Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Is PetalW >= 1.7?
+      --> True:
+      Node ID 3
+      Node Depth 11
+        Node ID 24
+        Node Depth 4
+        Prediction Dictionary {'Iris-virginica': 1}
+        Predicted class label Iris-virginica
+      --> False:
+      Node ID 3
+      Node Depth 11
+        Node ID 23
+        Node Depth 4
+        Prediction Dictionary {'Iris-versicolor': 47}
+        Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 50}
+  Predicted class label Iris-setosa
+********** Leaf nodes ****************
+id = 14 depth =3
+id = 28 depth =4
+id = 27 depth =4
+id = 54 depth =5
+id = 53 depth =5
+id = 25 depth =4
+id = 24 depth =4
+id = 23 depth =4
+id = 1 depth =1
+********** Non-leaf nodes ****************
+id = 0 depth =0
+id = 1 depth =2
+id = 2 depth =6
+id = 3 depth =13
+id = 2 depth =5
+id = 3 depth =12
+id = 4 depth =26
+id = 3 depth =11
+*************Tree before pruning*******
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalL >= 4.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.1?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 33}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Is SepalW >= 3.1?
+      --> True:
+      Node ID 3
+      Node Depth 13
+        Node ID 28
+        Node Depth 4
+        Prediction Dictionary {'Iris-versicolor': 2}
+        Predicted class label Iris-versicolor
+      --> False:
+      Node ID 3
+      Node Depth 13
+        Is PetalW >= 1.8?
+        --> True:
+        Node ID 4
+        Node Depth 27
+          Node ID 56
+          Node Depth 5
+          Prediction Dictionary {'Iris-virginica': 7}
+          Predicted class label Iris-virginica
+        --> False:
+        Node ID 4
+        Node Depth 27
+          Is SepalW >= 2.5?
+          --> True:
+          Node ID 5
+          Node Depth 55
+            Node ID 112
+            Node Depth 6
+            Prediction Dictionary {'Iris-versicolor': 2}
+            Predicted class label Iris-versicolor
+          --> False:
+          Node ID 5
+          Node Depth 55
+            Node ID 111
+            Node Depth 6
+            Prediction Dictionary {'Iris-virginica': 1}
+            Predicted class label Iris-virginica
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalW >= 1.7?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 1}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Node ID 11
+      Node Depth 3
+      Prediction Dictionary {'Iris-versicolor': 33}
+      Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 41}
+  Predicted class label Iris-setosa
+Accuracy on train = 1.0
+Accuracy on test = 0.97
+*************Tree after pruning  *******
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalL >= 4.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.1?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 33}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Is SepalW >= 3.1?
+      --> True:
+      Node ID 3
+      Node Depth 13
+        Node ID 28
+        Node Depth 4
+        Prediction Dictionary {'Iris-versicolor': 2}
+        Predicted class label Iris-versicolor
+      --> False:
+      Node ID 3
+      Node Depth 13
+        Is PetalW >= 1.8?
+        --> True:
+        Node ID 4
+        Node Depth 27
+          Node ID 56
+          Node Depth 5
+          Prediction Dictionary {'Iris-virginica': 7}
+          Predicted class label Iris-virginica
+        --> False:
+        Node ID 4
+        Node Depth 27
+          Node ID 5
+          Node Depth 55
+          Prediction Dictionary {'Iris-virginica': 1, 'Iris-versicolor': 2}
+          Predicted class label Iris-versicolor
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalW >= 1.7?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 1}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Node ID 11
+      Node Depth 3
+      Prediction Dictionary {'Iris-versicolor': 33}
+      Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 41}
+  Predicted class label Iris-setosa
+Accuracy on test = 0.97
+Strategy 1: Select n random nodes and prune them 
+*************Tree after pruning Using Strategy1  *******
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalL >= 4.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.1?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 33}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Node ID 3
+      Node Depth 13
+      Prediction Dictionary {'Iris-virginica': 8, 'Iris-versicolor': 4}
+      Predicted class label Iris-virginica
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalW >= 1.7?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 1}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Node ID 11
+      Node Depth 3
+      Prediction Dictionary {'Iris-versicolor': 33}
+      Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 41}
+  Predicted class label Iris-setosa
+Accuracy on test = 0.93
+Strategy 2: Prune all nodes above leaf 
+*************Tree after pruning Using Strategy2  *******
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalL >= 4.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.1?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 33}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Node ID 3
+      Node Depth 13
+      Prediction Dictionary {'Iris-virginica': 8, 'Iris-versicolor': 4}
+      Predicted class label Iris-virginica
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalW >= 1.7?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 1}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Node ID 11
+      Node Depth 3
+      Prediction Dictionary {'Iris-versicolor': 33}
+      Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 41}
+  Predicted class label Iris-setosa
+Accuracy on test = 0.93
+Strategy 3: Prune all inner nodes with maximum depth  
+Max inner node Depth   26
+*************Tree after pruning Using Strategy3  *******
+Is PetalW >= 1.0?
+--> True:
+Node ID 0
+Node Depth 0
+  Is PetalL >= 4.8?
+  --> True:
+  Node ID 1
+  Node Depth 2
+    Is PetalL >= 5.1?
+    --> True:
+    Node ID 2
+    Node Depth 6
+      Node ID 14
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 33}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 6
+      Node ID 3
+      Node Depth 13
+      Prediction Dictionary {'Iris-virginica': 8, 'Iris-versicolor': 4}
+      Predicted class label Iris-virginica
+  --> False:
+  Node ID 1
+  Node Depth 2
+    Is PetalW >= 1.7?
+    --> True:
+    Node ID 2
+    Node Depth 5
+      Node ID 12
+      Node Depth 3
+      Prediction Dictionary {'Iris-virginica': 1}
+      Predicted class label Iris-virginica
+    --> False:
+    Node ID 2
+    Node Depth 5
+      Node ID 11
+      Node Depth 3
+      Prediction Dictionary {'Iris-versicolor': 33}
+      Predicted class label Iris-versicolor
+--> False:
+Node ID 0
+Node Depth 0
+  Node ID 1
+  Node Depth 1
+  Prediction Dictionary {'Iris-setosa': 41}
+  Predicted class label Iris-setosa
+Accuracy on test = 0.93
