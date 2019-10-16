@@ -1,0 +1,227 @@
+Assume the number of operations executed by two algorithms A & B. Determine n0 such that A is better than B for n>=n0.(Assume that A is asymptotically less than B). Example: let A is 8logn and B is 2n2.
+
+Soln:
+
+#include<iostream>
+#include<time.h>
+#include<cmath>
+using namespace std;
+// node class
+class node
+{
+	int coeff;
+      	char data;
+       	node *next;
+public:	 friend class SLL;
+};
+// single linked list to store expression of number of operations of algorithm
+class SLL
+{
+ 	node *head;
+	char *str;
+	char hchar,stack;
+	int fcoeff;
+
+public:      SLL(char *init);
+	void insert_end(int,char);
+	void setlist();
+	int priority(char);
+	void evaluate();
+	void push(char);
+	char pop();
+	double finalexpr(int);
+                  friend void compare(SLL ,SLL );
+                  bool empty();
+};
+// constructor
+SLL::SLL(char *init)
+{
+	head=NULL;
+                  stack='\0';
+                  str=init;
+}
+//function that checks whether list is empty
+bool SLL::empty()
+{
+	return (head==NULL);
+}
+//function that inserts a node at the end of the list
+void SLL::insert_end(int d=1,char a='\0')
+{
+	node *temp;
+                  temp=new node;
+                  temp->coeff=d;
+                  temp->data=a;
+                  temp->next=NULL;
+                  if(head==NULL)
+          	        head=temp;
+                  else
+                 {
+          	        node *t=head;
+          	        while(t->next!=NULL)
+        		            t=t->next;
+                          t->next=temp;
+                  }
+}
+//function that stores the numbers and characters from the str into 'coeff' and 'data' of nodes of singly linked list
+void SLL::setlist()
+{
+	char m;
+                  int i=0;
+                  while(str[i]!='\0')
+                  { 
+          	        m=str[i];
+           	        if(m>=48 && m<=57)
+	        { 
+               		           insert_end(m-'0','\0');
+               		            i++;
+	        }
+	        else if(m>=65 && m<=90)
+	        { 
+               		           node *temp=head;
+               		           while(temp->data!='\0')
+          			                temp=temp->next;
+                		           temp->data=m;
+		            i++;
+	        }
+                         else if(m==43 || m==45)
+	        { 
+		            i++;
+	        }
+	        else
+		        throw("invalid character");
+	    }
+}
+//function to push element into stack
+void SLL::push(char ch)
+{
+	if(stack!='\0')
+          	        throw("overwriting");
+                  stack=ch;
+}
+//function to pop element from stack
+char SLL::pop()
+{
+	if(stack=='\0')
+         	        throw("empty");
+                  else	return stack;
+}
+//function to traverse through the single linked list and find out the highest priotiy function that is influencing the runtime of algorithm
+void SLL::evaluate()
+{   
+ 	node *temp=head;
+	while(temp->next!=NULL)
+                  { 
+           	        push(temp->data);
+	        int p1=priority(temp->data);
+        	        temp=temp->next;
+        	        int p2=priority(temp->data);
+        	        if(p1>p2)
+                         {
+                          	temp=temp->next;
+	        }
+	        else if(p1<p2)
+	        {
+	                  char tchar=pop();
+                                    push(temp->data);
+      	         }
+                   }
+ 	 char popch=pop();
+ 	 cout<<popch<<endl;
+    	 int t;
+	 while(temp->next!=NULL)
+	 { 
+                   	if(popch==temp->data)
+        		{
+		            t=temp->coeff;
+		            break;
+ 		}
+		else
+		            temp=temp->next;
+   	 }
+	 hchar=popch;
+	 fcoeff=t;
+}
+//function to assign priority to the functions based on their growth rates
+int SLL::priority(char ch)
+{
+	if(ch=='A')  return 7;
+	else if(ch=='B') return 6;
+                  else if(ch=='C') return 5;
+                  else if(ch=='D') return 4;
+                  else if(ch=='E') return 3;
+                  else if(ch=='F') return 2;
+                  else if(ch=='G') return 1;
+                  else throw("invalid char--no priority");
+}
+//function to find tha value of the higher order term of the algorithm for various input values
+double SLL::finalexpr(int n)
+{
+	double x;
+                  switch(hchar)
+                 {
+         	        case 'A':   x=1*fcoeff;
+                  	  break;
+                          case 'B':   x=log(n)*fcoeff;
+                  	  break;
+                          case 'C':   x=n*fcoeff;
+	                    break;
+                          case 'D':   x=n*log(n)*fcoeff;
+	                    break;
+                          case 'E':   x=n*n*fcoeff;
+	                    break;
+                          case 'F':   x=n*n*n*fcoeff;
+                  	  break;
+                          case 'G':   x=pow(2,n)*fcoeff;
+	                    break;
+                         default: cout<<"invalid";
+                 }
+                return x;
+}
+//function to compare the runtimes of two algorithms for different inputs
+void compare(SLL list1,SLL list2)
+{
+ 	int no,n=0;
+                 while(n>=0)
+                 {
+	       int t1=list1.finalexpr(n);
+	       int t2=list2.finalexpr(n);
+	       if(t1<t2)
+	       {
+	                no=n;
+	                break;
+	       }
+	       else n++;
+                  }
+ 	cout<<"\ninput no:"<<no;
+}
+int main()
+{
+	clock_t start, finish;
+	start = clock();		// notes down the system time during start of program
+
+	char s1[100],s2[100];
+	cout<<"running time of algorithm is of the order of any one of the following functions:\n"
+	        <<"1.constant(A)\n 2.logn(B) \n 3. n(C) \n 4. nlogn(D) \n 5.n^2(E) \n 6. n^3(F) \n 7. a^n(G)\n"
+	        <<"enter the runtime of the algorithm1:\n";
+	cin>>s1;
+	cout<<"enter the runtime of algorithm2:\n";
+	cin>>s2;
+	SLL list1(s1);
+	SLL list2(s2);
+	cout<<list1.str<<"\n"<<list2.str<<endl;
+	list1.setlist();
+	list2.setlist();
+	list1.evaluate();
+	list2.evaluate();
+	compare(list1,list2);
+	finish = clock();		// stores the system time during end of the program
+	cout << "Time  (seconds): "
+	         << ((double)(finish - start))/CLOCKS_PER_SEC;		// calculates time taken to run the program
+	
+	return 0;
+}
+// end of the program
+
+-- We used single linked list to store the expression the user enters when asked about the number of operations of his algorithm, as the expression     consisted of two data parts- coeff,char.
+-- We used the concept of stacks data structure to find the highest degree term in the expression using the functions push( ),pop( ).
